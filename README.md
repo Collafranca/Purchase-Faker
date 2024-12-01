@@ -1,6 +1,6 @@
 # Purchase Faker
 
-Purchase Faker is a simple GUI that can falsely buy DevProducts from game vulnerable to the SignalPromptPurchase exploit.
+Purchase Faker is a simple GUI that tricks Roblox games into thinking that you bought a DevProducts (Only works in games that are vulnerable to the SignalPromptPurchase exploit).
 
 ## How does the exploit work?
 
@@ -24,6 +24,12 @@ The process of getting the product ID and replacing it every time is tedious, so
 It will display all the developer products in the game along with their information: name, description, ID, and price. And when clicked, it will fire the signal prompt with that ID. You can see the GUI down below:
 
 ![GUI](https://github.com/user-attachments/assets/893bf483-33f0-4c1a-9715-37cc32955b97)
+
+To use it, just execute the script:
+
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Collafranca/Purchase-Faker/refs/heads/main/PuchaseFaker.lua",true))()
+```
 
 ## License
 
