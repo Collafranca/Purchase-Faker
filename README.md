@@ -23,6 +23,8 @@ The process of getting the product ID and replacing it every time is tedious, so
 
 It will display all the developer products in the game along with their information: name, description, ID, and price. And when clicked, it will fire the signal prompt with that ID. You can see the GUI down below:
 
+![GUI](https://github.com/user-attachments/assets/893bf483-33f0-4c1a-9715-37cc32955b97)
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
